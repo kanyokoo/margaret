@@ -112,7 +112,7 @@ const Services = () => {
     const [isHovered, setIsHovered] = useState(false);
 
     const handleWhatsApp = () => {
-      const message = `Hey there, I was wishing to know more of the ${service} service I learned about from your website. Would you please enlighten me on that?`;
+      const message = `Hello, I would like to learn more about the ${service} service mentioned on your website. Could you please provide additional information?”`;
       const whatsappUrl = `https://wa.me/254702195761?text=${encodeURIComponent(
         message
       )}`;

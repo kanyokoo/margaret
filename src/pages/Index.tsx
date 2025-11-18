@@ -96,7 +96,7 @@ const Index = () => {
                 With over <strong className="text-primary">5 years of experience</strong>,
                 I've helped more than{" "}
                 <strong className="text-primary">700 individuals, 10+ companies, and 10+ chamas</strong>{" "}
-                move from financial confusion to clarity. I'm passionate about empowering
+                move From money stress to money success. I'm passionate about empowering
                 you to make smart, strategic, and confident money decisions.
               </p>
               <Link
