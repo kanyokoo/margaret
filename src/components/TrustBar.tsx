@@ -1,10 +1,16 @@
 import ScrollAnimation from "./ScrollAnimation";
+import IRA from "@/assets/IRA.jpg";
+import CMA from "@/assets/CMA_Logo.png";
+import RBA from "@/assets/RBA_LOGO.png";
+
+
+
 
 const TrustBar = () => {
   const logos = [
-    { src: "/src/images/IRA.jpg", alt: "IRA Logo" },
-    { src: "/src/images/CMA_Logo.png", alt: "CMA Logo" },
-    { src: "/src/images/RBA_LOGO.png", alt: "RBA Logo" },
+    { src: IRA, alt: "IRA Logo" },
+    { src: CMA, alt: "CMA Logo" },
+    { src: RBA, alt: "RBA Logo" },
   ];
 
   // Duplicate logos for seamless scroll

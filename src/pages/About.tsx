@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import ScrollAnimation from "@/components/ScrollAnimation";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import professionalImage from "@/assets/about_3.jpg";
 
 const About = () => {
   const stats = [
@@ -91,7 +92,7 @@ const About = () => {
                 <div className="relative">
                   <div className="absolute inset-0 bg-accent/20 blur-2xl rounded-lg" />
                   <img
-                    src="/src/images/about_3.jpg"
+                    src={professionalImage}
                     alt="Margaret Gichia in a professional setting"
                     className="relative w-full max-w-lg rounded-2xl shadow-2xl border-4 border-primary"
                   />
