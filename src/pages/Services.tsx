@@ -1,4 +1,6 @@
 import { useState } from "react";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import {
   HandCoins,
@@ -22,6 +24,17 @@ import { Card, CardContent } from "@/components/ui/card";
 import wealthImage from "@/assets/wealth-protection.jpg";
 
 const Services = () => {
+  const location = useLocation();
+  useEffect(() => {
+  if (location.hash) {
+    const element = document.querySelector(location.hash);
+    if (element) {
+      setTimeout(() => {
+        element.scrollIntoView({ behavior: "smooth" });
+      }, 100);
+    }
+  }
+}, [location]);
   const individualServices = [
     {
       icon: HandCoins,
